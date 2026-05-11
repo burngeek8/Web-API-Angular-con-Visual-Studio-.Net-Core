@@ -1,0 +1,43 @@
+Profesor:
+
+La Tarea 06 consistio en configurar autorizacion basada en roles sobre el JWT
+ya implementado en la Tarea 05 (SistemaComercial).
+
+--- COMO FUNCIONA ---
+
+1. El empleado hace login en POST /api/empleados/login con su correo y clave.
+
+2. El sistema busca al empleado, obtiene su Cargo y genera un token JWT que
+   incluye tres claims:
+     - NameIdentifier : el Id del empleado
+     - Name           : su correo empresarial
+     - Role           : el nombre de su cargo (ej. "Gerente General" o "Vendedor")
+
+3. El token viaja en el header Authorization: Bearer <token> en cada request.
+
+4. ASP.NET Core lee el claim Role del token y lo compara con lo que cada
+   controlador declara en su atributo [Authorize(Roles = "...")].
+
+5. Si el rol del token no coincide con los roles permitidos, la API devuelve
+   403 Forbidden automaticamente, sin llegar al metodo del controlador.
+
+--- ROLES DEFINIDOS ---
+
+Se definieron dos roles dentro de la clase estatica Roles.cs:
+
+  Gerente General  ->  acceso total al sistema
+  Vendedor         ->  acceso a ventas, alumnos y cursos
+
+--- RESTRICCIONES POR CONTROLADOR ---
+
+  CargoController    : solo Gerente General
+  EmpleadoController : solo Gerente General
+  AlumnoController   : Gerente General o Vendedor
+  CursoController    : Gerente General o Vendedor
+  VentaController    : Gerente General o Vendedor
+
+Los endpoints de login y bootstrap (primer cargo, primer empleado) siguen
+siendo anonimos con [AllowAnonymous] para no bloquear la configuracion inicial.
+
+Saludos,
+Jose Rodriguez

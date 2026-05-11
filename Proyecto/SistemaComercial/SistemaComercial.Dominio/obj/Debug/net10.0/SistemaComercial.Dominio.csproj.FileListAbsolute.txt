@@ -9,3 +9,4 @@ D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\obj\Debug\net10.0
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\obj\Debug\net10.0\refint\SistemaComercial.Dominio.dll
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\obj\Debug\net10.0\SistemaComercial.Dominio.pdb
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\obj\Debug\net10.0\ref\SistemaComercial.Dominio.dll
+D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\obj\Debug\net10.0\SistemaComercial.Dominio.sourcelink.json

@@ -1,5 +1,6 @@
 using SistemaComercial.Aplicacion.Cargos.CrearCargo;
 using SistemaComercial.Aplicacion.Cargos.ListarCargos;
+using SistemaComercial.Api.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
 [Route("api/cargos")]
+[Authorize(Roles = Roles.GerenteGeneral)]
 public class CargoController : ControllerBase
 {
     private readonly ISender _sender;
@@ -37,24 +39,9 @@ public class CargoController : ControllerBase
     }
 
     [HttpGet]
-    [AllowAnonymous]
     public async Task<ActionResult<List<ListarCargosResponse>>> GetAll(CancellationToken cancellationToken)
     {
         var response = await _sender.Send(new ListarCargosQuery(), cancellationToken);
-
-        bool isBootstrap = response.Count == 0;
-        if (isBootstrap)
-        {
-            return Ok(new
-            {
-                mensaje = "No se encontro ningun cargo. Empieza registrando el primero.",
-                cargos = response
-            });
-        }
-
-        if (!(User.Identity?.IsAuthenticated ?? false))
-            return Unauthorized("Debe autenticarse para listar cargos.");
-
         return Ok(response);
     }
 }

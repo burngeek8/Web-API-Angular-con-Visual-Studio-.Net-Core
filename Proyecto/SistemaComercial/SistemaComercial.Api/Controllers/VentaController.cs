@@ -1,6 +1,7 @@
 using SistemaComercial.Aplicacion.Ventas.GetVentaBySerieNumero;
 using SistemaComercial.Aplicacion.Ventas.ListarVentas;
 using SistemaComercial.Aplicacion.Ventas.RegistrarVenta;
+using SistemaComercial.Api.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
-[Authorize]
+[Authorize(Roles = $"{Roles.GerenteGeneral},{Roles.Vendedor}")]
 [Route("api/ventas")]
 public class VentaController : ControllerBase
 {

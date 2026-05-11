@@ -143,4 +143,5 @@ D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\ref
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\SistemaComercial.Api.pdb
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\SistemaComercial.Api.genruntimeconfig.cache
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\ref\SistemaComercial.Api.dll
+D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\SistemaComercial.Api.sourcelink.json
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

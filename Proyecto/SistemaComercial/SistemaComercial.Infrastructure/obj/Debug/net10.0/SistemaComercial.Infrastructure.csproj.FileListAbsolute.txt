@@ -15,3 +15,4 @@ D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\obj\Debug\
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\obj\Debug\net10.0\refint\SistemaComercial.Infrastructure.dll
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\obj\Debug\net10.0\SistemaComercial.Infrastructure.pdb
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\obj\Debug\net10.0\ref\SistemaComercial.Infrastructure.dll
+D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\obj\Debug\net10.0\SistemaComercial.Infrastructure.sourcelink.json

@@ -13,3 +13,4 @@ D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\obj\Debug\net1
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\obj\Debug\net10.0\refint\SistemaComercial.Aplicacion.dll
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\obj\Debug\net10.0\SistemaComercial.Aplicacion.pdb
 D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\obj\Debug\net10.0\ref\SistemaComercial.Aplicacion.dll
+D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\obj\Debug\net10.0\SistemaComercial.Aplicacion.sourcelink.json

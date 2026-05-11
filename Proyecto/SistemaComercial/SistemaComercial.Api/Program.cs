@@ -15,6 +15,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     }));
 
+// Registro de filtros globales: control de excepciones y logging de acciones
 builder.Services.AddScoped<GlobalExceptionFilter>();
 builder.Services.AddScoped<GlobalActionLoggingFilter>();
 
@@ -23,6 +24,8 @@ builder.Services.AddControllers(options =>
     options.Filters.Add<GlobalExceptionFilter>();
     options.Filters.Add<GlobalActionLoggingFilter>();
 });
+
+
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
@@ -56,6 +59,24 @@ if (app.Environment.IsDevelopment())
 await app.MigrationDatabaseAsync();
 
 app.UseCors("defaultPolicy");
+
+app.UseStatusCodePages(async context =>
+{
+    var response = context.HttpContext.Response;
+    if (response.StatusCode == StatusCodes.Status401Unauthorized ||
+        response.StatusCode == StatusCodes.Status403Forbidden)
+    {
+        response.ContentType = "application/json";
+        var problem = new Microsoft.AspNetCore.Mvc.ProblemDetails
+        {
+            Status = response.StatusCode,
+            Title = response.StatusCode == StatusCodes.Status401Unauthorized
+                ? "No autenticado."
+                : "Acceso denegado. No tiene permisos para este recurso.",
+        };
+        await response.WriteAsJsonAsync(problem);
+    }
+});
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -1,6 +1,7 @@
 using SistemaComercial.Aplicacion.Alumnos.CrearAlumno;
 using SistemaComercial.Aplicacion.Alumnos.GetByIdAlumno;
 using SistemaComercial.Aplicacion.Alumnos.ListarAlumnos;
+using SistemaComercial.Api.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
-[Authorize]
+[Authorize(Roles = $"{Roles.GerenteGeneral},{Roles.Vendedor}")]
 [Route("api/alumnos")]
 public class AlumnoController : ControllerBase
 {

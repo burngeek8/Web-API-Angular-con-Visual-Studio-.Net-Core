@@ -3,6 +3,7 @@ using SistemaComercial.Aplicacion.Empleados.CrearEmpleado;
 using SistemaComercial.Aplicacion.Empleados.GetByIdEmpleado;
 using SistemaComercial.Aplicacion.Empleados.ListarEmpleados;
 using SistemaComercial.Aplicacion.Empleados.LoginEmpleado;
+using SistemaComercial.Api.Authorization;
 using SistemaComercial.Dominio.Cargos;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -12,6 +13,7 @@ namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
 [Route("api/empleados")]
+[Authorize(Roles = Roles.GerenteGeneral)]
 public class EmpleadoController : ControllerBase
 {
     private const string PrimerCargoRegistroUrl = "/api/cargos";
@@ -60,7 +62,6 @@ public class EmpleadoController : ControllerBase
     }
 
     [HttpGet("{id:guid}")]
-    [Authorize]
     public async Task<ActionResult<GetByIdEmpleadoResponse>> GetById(Guid id, CancellationToken cancellationToken)
     {
         var response = await _sender.Send(new GetByIdEmpleadoQuery(id), cancellationToken);
@@ -68,24 +69,9 @@ public class EmpleadoController : ControllerBase
     }
 
     [HttpGet]
-    [AllowAnonymous]
     public async Task<ActionResult<List<ListarEmpleadosResponse>>> GetAll(CancellationToken cancellationToken)
     {
         var response = await _sender.Send(new ListarEmpleadosQuery(), cancellationToken);
-
-        bool isBootstrap = response.Count == 0;
-        if (isBootstrap)
-        {
-            return Ok(new
-            {
-                mensaje = "No se encontro ningun empleado. Empieza registrando el primero.",
-                empleados = response
-            });
-        }
-
-        if (!(User.Identity?.IsAuthenticated ?? false))
-            return Unauthorized("Debe autenticarse para listar empleados.");
-
         return Ok(response);
     }
 

@@ -1,0 +1,8 @@
+Profesor:
+
+En esta carpeta se adjunta el enunciado correspondiente a la Tarea 01.
+
+Esta entrega se conserva siguiendo el estandar definido en la raiz de `Tareas`, dejando preparada la estructura base para evidencias complementarias cuando corresponda.
+
+Saludos,
+Jose Rodriguez

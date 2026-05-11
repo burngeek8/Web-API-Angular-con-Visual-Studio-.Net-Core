@@ -1,0 +1,11 @@
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\bin\Debug\net10.0\Empleado.Dominio.deps.json
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\bin\Debug\net10.0\Empleado.Dominio.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\bin\Debug\net10.0\Empleado.Dominio.pdb
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.AssemblyInfoInputs.cache
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.AssemblyInfo.cs
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.csproj.CoreCompileInputs.cache
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\refint\Empleado.Dominio.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\Empleado.Dominio.pdb
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Dominio\obj\Debug\net10.0\ref\Empleado.Dominio.dll

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 02\\src\\usuario\\usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 02\\src\\usuario\\usuario.dominio\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 02\\src\\usuario\\usuario.dominio\\usuarios\\repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 02\\src\\usuario\\usuario.dominio\\usuarios\\services\\nombreusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\services\\nombreusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Abstractions\\Entity.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T01:43:47.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T01:38:55.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T01:36:01.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NombreUsuarioServices.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Services\\NombreUsuarioServices.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Services\\NombreUsuarioServices.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 02\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Services\\NombreUsuarioServices.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Services\\NombreUsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T01:31:48.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<body>
+  <button onclick="callApi()">Probar CORS</button>
+  <pre id="result"></pre>
+
+  <script>
+    async function callApi() {
+      try {
+        const response = await fetch("http://localhost:7777/api/usuario/login", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            NombreUsuario: "FTANTA",
+            Password: "Password12312121"
+          })
+        });
+
+        const text = await response.text();
+        document.getElementById("result").innerText =
+          "Status: " + response.status + "\n\n" + text;
+      }
+      catch (err) {
+        document.getElementById("result").innerText =
+          "ERROR CORS: " + err;
+      }
+    }
+  </script>
+</body>
+</html>

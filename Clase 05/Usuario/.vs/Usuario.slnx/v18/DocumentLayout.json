@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.infrastructure\\migrations\\20260430011958_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\migrations\\20260430011958_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FC582CBF-D964-4076-9986-8320244FECFB}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.dominio\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.aplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.aplication\\usuario.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuario.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\desarrollo\\cibertec\\clase 05\\usuario\\usuario.infrastructure\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Usuario.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "Usuario.Api\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:21:55.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Usuario.Api\\Program.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\Program.cs",
+              "RelativeToolTip": "Usuario.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T00:51:28.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Usuario.Api\\appsettings.json",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\appsettings.json",
+              "RelativeToolTip": "Usuario.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T00:51:29.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwEsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:20:42.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260430011958_InitialCreate.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\Migrations\\20260430011958_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Migrations\\20260430011958_InitialCreate.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\Migrations\\20260430011958_InitialCreate.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Migrations\\20260430011958_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:20:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Dominio\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Abstractions\\Entity.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Dominio\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:18:10.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:17:59.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:13:33.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Usuario.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Usuario.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T02:04:05.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Aplication\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\DependencyInjection.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Aplication\\DependencyInjection.cs",
+              "RelativeToolTip": "Usuario.Aplication\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:08:36.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.Aplication.csproj",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Aplication\\Usuario.Aplication.csproj",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuario.Aplication.csproj",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Aplication\\Usuario.Aplication.csproj",
+              "RelativeToolTip": "Usuario.Aplication\\Usuario.Aplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T01:08:35.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependecyInjection.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\DependecyInjection.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\DependecyInjection.cs",
+              "ToolTip": "D:\\desarrollo\\Cibertec\\Clase 05\\Usuario\\Usuario.Infrastructure\\DependecyInjection.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\DependecyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:06:48.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

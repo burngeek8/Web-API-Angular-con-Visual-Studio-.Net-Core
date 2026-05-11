@@ -1,0 +1,9 @@
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\WebApiConCommandoControlador.exe
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\appsettings.Development.json
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\appsettings.json
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\WebApiConCommandoControlador.dll
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\WebApiConCommandoControlador.deps.json
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\WebApiConCommandoControlador.runtimeconfig.json
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\WebApiConCommandoControlador.pdb
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\Microsoft.AspNetCore.OpenApi.dll
+D:\desarrollo\Clase\Publicacion\WeatherForecastAPI\Microsoft.OpenApi.dll

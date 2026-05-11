@@ -1,0 +1,47 @@
+﻿using Dapper;
+using Usuario.Aplication.Abstractions.Data;
+using Usuario.Aplication.Abstractions.Messaging;
+
+namespace Usuario.Aplication.Usuarios.GetByIdUsuario;
+
+internal sealed class GetByIdUsuarioQueryHandler : IQueryHandler<GetByIdUsuarioQuery, GetByIdUsuarioResponse>
+{
+    private readonly ISqlConnectionFactory _sqlConnectionFactory;
+
+    public GetByIdUsuarioQueryHandler(ISqlConnectionFactory sqlConnectionFactory)
+    {
+        _sqlConnectionFactory = sqlConnectionFactory;
+    }
+
+    public async Task<GetByIdUsuarioResponse> Handle(GetByIdUsuarioQuery request, CancellationToken cancellationToken)
+    {
+        using var connection = _sqlConnectionFactory.CreateConnection();
+
+        var sql = """
+            SELECT 
+                u.id,
+                u.nombres_persona,
+                u.apellido_paterno,
+                u.apellido_materno,
+                u.password,
+                u.fecha_nacimiento,
+                u.correo_electronico,
+                u.direccion_pais,
+                u.direccion_departamento,
+                u.direccion_provincia,
+                u.direccion_distrito,
+                u.direccion_calle,
+                r.Nombre AS NombreRol,
+                u.fecha_ultimo_cambio,
+                u.estado 
+                From usuarios u INNER JOIN  roles r 
+                ON u.rol_id = r.id
+                WHERE u.id = @IdUsuario
+            """;
+
+        var usuarioResult = await connection.QueryFirstOrDefaultAsync<GetByIdUsuarioResponse>(
+           sql, new { IdUsuario = request.Id });
+
+        return usuarioResult is not null ? usuarioResult : throw new Exception($"No se encontró el usuario con ID: {request.Id}");
+    }
+}

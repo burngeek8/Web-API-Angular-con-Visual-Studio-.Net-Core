@@ -1,0 +1,39 @@
+Profesor:
+
+Inicialmente el proyecto base del curso fue desarrollado bajo el nombre `Empleado`, debido a que los primeros laboratorios y tareas estuvieron centrados en ese dominio.
+
+Sin embargo, a partir de los requerimientos planteados en la Tarea 05, relacionados con el registro y consulta de ventas, se decidió ampliar y reestructurar el proyecto hacia un alcance funcional mayor, adoptando el nombre `SistemaComercial`.
+
+Este cambio permite mantener una sola base de trabajo para laboratorio y tareas, incorporando nuevos modulos de negocio de forma ordenada, sin limitar la solucion exclusivamente a la gestion de empleados.
+
+Lo implementado en SistemaComercial para esta tarea es lo siguiente:
+
+Autenticacion:
+- Login con JWT: el token generado es requerido en los endpoints protegidos.
+
+Modulo Alumno:
+- Registro de alumno (nombres, apellidos, direccion, ciudad).
+- Listado de alumnos.
+
+Modulo Curso:
+- Registro de curso (nombre, cantidad de horas, precio).
+- Listado de cursos.
+
+Modulo Venta:
+- Registro de venta: cabecera con alumno, serie, numero y fecha; mas uno o mas detalles
+  donde cada detalle referencia un curso con su cantidad y precio. El total de la venta
+  se calcula automaticamente desde los detalles.
+- Consulta de venta por serie y numero de comprobante.
+- Listado de ventas.
+- Filtro de ventas por rango de fechas.
+
+Base de datos:
+- Motor: PostgreSQL.
+- Migraciones generadas y aplicadas con Entity Framework Core.
+- Tablas creadas: Alumnos, Cursos, Ventas.
+
+El proyecto compila sin errores (dotnet build) y los endpoints fueron validados
+desde Swagger con autenticacion JWT activa.
+
+Saludos,
+Jose Rodriguez

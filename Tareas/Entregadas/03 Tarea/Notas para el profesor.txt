@@ -1,0 +1,10 @@
+Profesor:
+
+En esta entrega adjunto el proyecto `Empleado`, reutilizado a partir del trabajo desarrollado en laboratorio, para evidenciar la implementacion del patron repositorio solicitada en la Tarea 03.
+
+En este caso, el repositorio del modelo trabajado se encuentra representado por la interfaz `IEmpleadoRepository`, su implementacion `EmpleadoRepository` y el repositorio base `Repository`, ubicados en las capas de dominio e infraestructura.
+
+Tambien incluyo las imagenes relacionadas con los pantallazos de la implementacion del patron repositorio dentro del proyecto.
+
+Saludos,
+Jose Rodriguez

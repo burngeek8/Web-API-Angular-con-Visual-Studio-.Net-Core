@@ -1,0 +1,51 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Usuario.Aplication.Usuarios.GetByIdUsuario;
+
+public record GetByIdUsuarioResponse
+(
+    [property: Column("id")]
+    Guid Id,
+
+    [property: Column("nombres_persona")]
+    string NombresPersona,
+
+    [property: Column("apellido_paterno")]
+    string ApellidoPaterno,
+
+    [property: Column("apellido_materno")]
+    string? ApellidoMaterno,
+
+    [property: Column("password")]
+    string? Password,
+
+    [property: Column("fecha_nacimiento")]
+    DateTime FechaNacimiento,
+
+    [property: Column("correo_electronico")]
+    string? CorreoElectronico,
+
+    [property: Column("direccion_pais")]
+    string Pais,
+
+    [property: Column("direccion_departamento")]
+    string Departamento,
+
+    [property: Column("direccion_provincia")]
+    string Provincia,
+
+    [property: Column("direccion_distrito")]
+    string Distrito,
+
+    [property: Column("direccion_calle")]
+    string Calle,
+
+    [property: Column("NombreRol")]
+    string NombreRol,
+
+    [property: Column("fecha_ultimo_cambio")]
+    DateTime FechaUltimoCambio,
+
+    [property: Column("estado")]
+    string Estado
+);

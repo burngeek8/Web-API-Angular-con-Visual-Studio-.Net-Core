@@ -1,0 +1,17 @@
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Infrastructure.deps.json
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Infrastructure.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Infrastructure.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Dominio.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\bin\Debug\net10.0\Usuario.Dominio.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.csproj.AssemblyReference.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.AssemblyInfoInputs.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.AssemblyInfo.cs
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario..75F60D9A.Up2Date
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\refint\Usuario.Infrastructure.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\Usuario.Infrastructure.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Infrastructure\obj\Debug\net10.0\ref\Usuario.Infrastructure.dll

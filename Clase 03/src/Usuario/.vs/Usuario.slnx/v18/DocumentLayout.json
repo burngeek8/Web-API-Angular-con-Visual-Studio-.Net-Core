@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\usuarios\\crearusuario\\crearusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\crearusuario\\crearusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.dominio\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\usuarios\\crearusuario\\crearusuariocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\crearusuario\\crearusuariocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.dominio\\roles\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\roles\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.aplication\\abstractions\\data\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\abstractions\\data\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\desarrollo\\clase\\clase 03\\src\\usuario\\usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrearUsuarioCommandHandler.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommandHandler.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommandHandler.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommandHandler.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:10:22.107Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Abstractions\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Abstractions\\IUnitOfWork.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Abstractions\\IUnitOfWork.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Abstractions\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:22:23.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearUsuarioCommand.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommand.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommand.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommand.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\CrearUsuario\\CrearUsuarioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:05:51.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\DependencyInjection.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\DependencyInjection.cs",
+              "RelativeToolTip": "Usuario.Aplication\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:35:27.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetByIdUsuarioResponse.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioResponse.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioResponse.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioResponse.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:25:59.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetByIdUsuarioQueryHandler.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA6wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:27:19.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetByIdUsuarioQuery.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQuery.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQuery.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQuery.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:25:23.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Roles\\Rol.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Roles\\Rol.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Roles\\Rol.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Roles\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:32:33.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:28:23.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 03\\src\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:06:25.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desarrollo\\Clase\\Clase 04\\src\\Empleado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37C5F9AB-9AEC-EBF1-E031-22B9CCBE3166}|Empleado.Infrastructure\\Empleado.Infrastructure.csproj|d:\\desarrollo\\clase\\clase 04\\src\\empleado\\empleado.infrastructure\\configurations\\empleadoconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C5F9AB-9AEC-EBF1-E031-22B9CCBE3166}|Empleado.Infrastructure\\Empleado.Infrastructure.csproj|solutionrelative:empleado.infrastructure\\configurations\\empleadoconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36252273-EFD4-A89D-75AD-4E41FFC66DEB}|Empleado.Aplicacion\\Empleado.Aplicacion.csproj|d:\\desarrollo\\clase\\clase 04\\src\\empleado\\empleado.aplicacion\\empleados\\crearempleado\\crearempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36252273-EFD4-A89D-75AD-4E41FFC66DEB}|Empleado.Aplicacion\\Empleado.Aplicacion.csproj|solutionrelative:empleado.aplicacion\\empleados\\crearempleado\\crearempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadoConfigurations.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 04\\src\\Empleado\\Empleado.Infrastructure\\Configurations\\EmpleadoConfigurations.cs",
+              "RelativeDocumentMoniker": "Empleado.Infrastructure\\Configurations\\EmpleadoConfigurations.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 04\\src\\Empleado\\Empleado.Infrastructure\\Configurations\\EmpleadoConfigurations.cs",
+              "RelativeToolTip": "Empleado.Infrastructure\\Configurations\\EmpleadoConfigurations.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T02:31:28.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearEmpleadoCommandHandler.cs",
+              "DocumentMoniker": "D:\\desarrollo\\Clase\\Clase 04\\src\\Empleado\\Empleado.Aplicacion\\Empleados\\CrearEmpleado\\CrearEmpleadoCommandHandler.cs",
+              "RelativeDocumentMoniker": "Empleado.Aplicacion\\Empleados\\CrearEmpleado\\CrearEmpleadoCommandHandler.cs",
+              "ToolTip": "D:\\desarrollo\\Clase\\Clase 04\\src\\Empleado\\Empleado.Aplicacion\\Empleados\\CrearEmpleado\\CrearEmpleadoCommandHandler.cs",
+              "RelativeToolTip": "Empleado.Aplicacion\\Empleados\\CrearEmpleado\\CrearEmpleadoCommandHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T02:37:52.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

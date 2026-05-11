@@ -1,0 +1,8 @@
+Profesor:
+
+En esta entrega adjunto el proyecto `Empleado`, trabajado en base a lo desarrollado en laboratorio para la Tarea 02.
+
+Tambien incluyo la carpeta `Imagenes Relacionadas`, donde se encuentran los pantallazos de los casos de uso implementados: registrar, actualizar y listar.
+
+Saludos,
+Jose Rodriguez

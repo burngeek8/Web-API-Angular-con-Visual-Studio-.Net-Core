@@ -1,0 +1,12 @@
+Profesor:
+
+En esta entrega adjunto el proyecto `Empleado` como evidencia de lo trabajado para la Tarea 04.
+
+Segun lo desarrollado en la Clase 04 y en la Clase 05, se deja evidencia de la implementacion relacionada con la capa de aplicacion y la configuracion de ASP.NET Core Web API sobre el proyecto de laboratorio.
+
+Asimismo, debido a que la descripcion de la Tarea 04 se encuentra igual que la Tarea 03, se eligio presentar esta evidencia de acuerdo con lo ultimo trabajado en la semana para mantener coherencia con el contenido visto en clase.
+
+Las imagenes relacionadas incluidas en la entrega muestran los pantallazos de la implementacion presentada en esta tarea, considerando la capa de aplicacion, la configuracion de la Web API, la migracion `InitialCreate` y la creacion automatica de las tablas en la base de datos al levantar la aplicacion.
+
+Saludos,
+Jose Rodriguez

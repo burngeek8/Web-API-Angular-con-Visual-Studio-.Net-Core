@@ -1,0 +1,15 @@
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\bin\Debug\net10.0\Empleado.Aplicacion.deps.json
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\bin\Debug\net10.0\Empleado.Aplicacion.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\bin\Debug\net10.0\Empleado.Aplicacion.pdb
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\bin\Debug\net10.0\Empleado.Dominio.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\bin\Debug\net10.0\Empleado.Dominio.pdb
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.csproj.AssemblyReference.cache
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.AssemblyInfoInputs.cache
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.AssemblyInfo.cs
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.csproj.CoreCompileInputs.cache
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.37E29EE4.Up2Date
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\refint\Empleado.Aplicacion.dll
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\Empleado.Aplicacion.pdb
+D:\desarrollo\Clase\Clase 04\src\Empleado\Empleado.Aplicacion\obj\Debug\net10.0\ref\Empleado.Aplicacion.dll

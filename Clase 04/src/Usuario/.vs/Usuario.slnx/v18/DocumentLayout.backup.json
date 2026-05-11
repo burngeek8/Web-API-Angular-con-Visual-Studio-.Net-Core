@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Temp\\Capitulo4\\Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\configurations\\rolconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\configurations\\rolconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\configurations\\usuarioconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\configurations\\usuarioconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\temp\\capitulo4\\usuario\\usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\abstractions\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\abstractions\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\temp\\capitulo4\\usuario\\usuario.aplication\\abstractions\\data\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\abstractions\\data\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|d:\\temp\\capitulo4\\usuario\\usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3C496A-E6D0-4E4D-B830-D67AC3ADFEBD}|Usuario.Aplication\\Usuario.Aplication.csproj|solutionrelative:usuario.aplication\\usuarios\\getbyidusuario\\getbyidusuarioqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\temp\\capitulo4\\usuario\\usuario.dominio\\usuarios\\repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\usuarios\\repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|d:\\temp\\capitulo4\\usuario\\usuario.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C14BEF-2B5A-463F-8CD0-F5C119F2F1AB}|Usuario.Infrastructure\\Usuario.Infrastructure.csproj|solutionrelative:usuario.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|d:\\temp\\capitulo4\\usuario\\usuario.dominio\\roles\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68153072-42DF-3388-0FA7-27BD6BB50B5A}|Usuario.Dominio\\Usuario.Dominio.csproj|solutionrelative:usuario.dominio\\roles\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:14:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependecyInjection.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\DependecyInjection.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\DependecyInjection.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\DependecyInjection.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\DependecyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:09:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolConfigurations.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Configurations\\RolConfigurations.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Configurations\\RolConfigurations.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Configurations\\RolConfigurations.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Configurations\\RolConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T01:08:01.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioConfigurations.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Configurations\\UsuarioConfigurations.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Configurations\\UsuarioConfigurations.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Configurations\\UsuarioConfigurations.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Configurations\\UsuarioConfigurations.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:57:35.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Usuario.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:56:39.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Abstractions\\SqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Abstractions\\SqlConnectionFactory.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Abstractions\\SqlConnectionFactory.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Abstractions\\SqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:53:42.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetByIdUsuarioQueryHandler.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Usuarios\\GetByIdUsuario\\GetByIdUsuarioQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:53:20.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "RelativeToolTip": "Usuario.Aplication\\Abstractions\\Data\\ISqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:53:13.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Usuarios\\Repository\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:50:23.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\RolRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Repositories\\RolRepository.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\RolRepository.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Repositories\\RolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:49:24.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRolRepository.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Roles\\IRolRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Dominio\\Roles\\IRolRepository.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Dominio\\Roles\\IRolRepository.cs",
+              "RelativeToolTip": "Usuario.Dominio\\Roles\\IRolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:49:06.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:48:41.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Temp\\Capitulo4\\Usuario\\Usuario.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Usuario.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:46:47.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

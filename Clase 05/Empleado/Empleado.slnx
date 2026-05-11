@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="D:/desarrollo/Cibertec/Clase 05/Empleado/Empleado.Api/Empleado.Api.csproj" Id="19d7ca3b-ccf6-4bd4-b85d-424932f91278" />
+  <Project Path="D:/desarrollo/Cibertec/Clase 05/Empleado/Empleado.Aplicacion/Empleado.Aplicacion.csproj" />
+  <Project Path="D:/desarrollo/Cibertec/Clase 05/Empleado/Empleado.Dominio/Empleado.Dominio.csproj" />
+  <Project Path="D:/desarrollo/Cibertec/Clase 05/Empleado/Empleado.Infrastructure/Empleado.Infrastructure.csproj" />
+</Solution>

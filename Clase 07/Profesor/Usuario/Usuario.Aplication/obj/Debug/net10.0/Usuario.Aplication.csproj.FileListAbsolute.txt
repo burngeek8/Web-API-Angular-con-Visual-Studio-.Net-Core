@@ -1,0 +1,72 @@
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.deps.json
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfoInputs.cache
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfo.cs
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.CoreCompileInputs.cache
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\refint\Usuario.Aplication.dll
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\ref\Usuario.Aplication.dll
+D:\Temp\Capitulo3\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.AssemblyReference.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.deps.json
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.AssemblyReference.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfoInputs.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfo.cs
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.CoreCompileInputs.cache
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario..6B4A8FF7.Up2Date
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\refint\Usuario.Aplication.dll
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo5\Usuario\Usuario.Aplication\obj\Debug\net10.0\ref\Usuario.Aplication.dll
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.deps.json
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.dll
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.pdb
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.AssemblyReference.cache
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfoInputs.cache
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfo.cs
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.CoreCompileInputs.cache
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario..6B4A8FF7.Up2Date
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\refint\Usuario.Aplication.dll
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo6\Usuario\Usuario.Aplication\obj\Debug\net10.0\ref\Usuario.Aplication.dll
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.deps.json
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.dll
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.pdb
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.AssemblyReference.cache
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfoInputs.cache
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfo.cs
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.CoreCompileInputs.cache
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario..6B4A8FF7.Up2Date
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.dll
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\refint\Usuario.Aplication.dll
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.pdb
+D:\Temp\Capitulo7\Usuario\Usuario.Aplication\obj\Debug\net10.0\ref\Usuario.Aplication.dll
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.deps.json
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.dll
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Aplication.pdb
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.dll
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\bin\Debug\net10.0\Usuario.Dominio.pdb
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.AssemblyReference.cache
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfoInputs.cache
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.AssemblyInfo.cs
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.csproj.CoreCompileInputs.cache
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario..6B4A8FF7.Up2Date
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.dll
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\refint\Usuario.Aplication.dll
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\Usuario.Aplication.pdb
+D:\desarrollo\Cibertec\Clase 07\Profesor\Usuario\Usuario.Aplication\obj\Debug\net10.0\ref\Usuario.Aplication.dll

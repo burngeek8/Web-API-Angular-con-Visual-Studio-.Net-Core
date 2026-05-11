@@ -1,0 +1,41 @@
+Profesor:
+
+La Tarea 07 consistio en implementar un filtro de control de excepciones en la API
+del proyecto SistemaComercial.
+
+--- LO QUE SE IMPLEMENTO ---
+
+Se implementaron dos filtros globales registrados en Program.cs:
+
+1. GlobalExceptionFilter (IExceptionFilter)
+   Captura cualquier excepcion no controlada que ocurra dentro de un controlador
+   y devuelve una respuesta estructurada en formato ProblemDetails con:
+     - Status  : 500 Internal Server Error
+     - Title   : "An unexpected error occurred."
+     - Detail  : el mensaje de la excepcion
+
+   Esto evita que el servidor exponga stack traces crudos al cliente y garantiza
+   una respuesta JSON consistente ante cualquier error inesperado.
+
+2. GlobalActionLoggingFilter (IAsyncActionFilter)
+   Registra en el log del servidor el nombre de cada accion antes y despues
+   de su ejecucion. Util para trazabilidad y diagnostico en desarrollo.
+
+--- COMO ESTAN REGISTRADOS ---
+
+En Program.cs, ambos filtros se agregan globalmente a todos los controladores:
+
+  builder.Services.AddScoped<GlobalExceptionFilter>();
+  builder.Services.AddScoped<GlobalActionLoggingFilter>();
+
+  builder.Services.AddControllers(options =>
+  {
+      options.Filters.Add<GlobalExceptionFilter>();
+      options.Filters.Add<GlobalActionLoggingFilter>();
+  });
+
+Al ser globales, aplican automaticamente a todos los endpoints sin necesidad
+de decorar cada controlador individualmente.
+
+Saludos,
+Jose Rodriguez

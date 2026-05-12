@@ -1,10 +1,24 @@
 using Microsoft.OpenApi;
+using Serilog;
 using SistemaComercial.Api.Extensions;
 using SistemaComercial.Api.Filter;
 using SistemaComercial.Aplicacion;
 using SistemaComercial.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configura Serilog para registrar eventos en consola, archivo diario y MongoDB.
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.MongoDB(
+        databaseUrl: builder.Configuration.GetConnectionString("MongoDb")!,
+        collectionName: "logs"
+    )
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 builder.Services.AddCors(options =>
     options.AddPolicy("defaultPolicy",

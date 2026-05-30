@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 12px;
+    }
+
+    #result {
+      max-width: 900px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="callApi()">Probar CORS</button>
+  <pre id="result"></pre>
+
+  <script>
+    const API_URL = "http://localhost:5075/api/empleados/login";
+
+    async function callApi() {
+      try {
+        const response = await fetch(API_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            CorreoEmpresarial: "jrodriguez@esandex.com",
+            Clave: "Emp5b759b15fcf"
+          })
+        });
+
+        const text = await response.text();
+        document.getElementById("result").innerText =
+          "Status: " + response.status + "\n\n" + text;
+      }
+      catch (err) {
+        document.getElementById("result").innerText =
+          "ERROR CORS: " + err;
+      }
+    }
+  </script>
+</body>
+</html>

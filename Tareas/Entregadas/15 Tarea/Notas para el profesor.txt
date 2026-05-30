@@ -1,0 +1,24 @@
+NOTAS PARA EL PROFESOR
+
+La actividad realizada consistio en desplegar el frontend Angular del proyecto Sistema Comercial en Azure, validando su funcionamiento desde la nube.
+
+Para ello se trabajo con la aplicacion sistema-comercial-app, la cual ya contaba con login, rutas protegidas con JWT, navegacion entre modulos y consumo de la API publicada.
+
+Durante la clase el enfoque principal fue Azure Static Web Apps. De forma complementaria tambien se realizo una publicacion en Azure App Service para comparar ambos escenarios.
+
+La URL actual de la publicacion estatica es:
+
+https://purple-sand-00af6e51e.7.azurestaticapps.net/
+
+En ambos casos la aplicacion fue compilada con ng build y se utilizo el contenido generado en la carpeta dist\sistema-comercial-app\browser.
+
+Asimismo se identifico una diferencia importante en el manejo de rutas SPA:
+
+- En Azure App Service se utilizo el archivo web.config para redirigir las rutas internas hacia index.html.
+- En Azure Static Web Apps se utilizo el archivo staticwebapp.config.json con navigationFallback para permitir la recarga correcta de rutas como /login, /laboratorio, /cargos y /empleados.
+
+Con ello se logro validar que la aplicacion Angular funciona publicada en la nube y que mantiene el comportamiento correcto de una SPA aun al trabajar con rutas internas.
+
+--- EVIDENCIAS ADJUNTAS ---
+
+Se adjuntan imagenes del recurso de Azure Static Web Apps, del sitio Angular funcionando desde su URL publica, del comando de despliegue con swa deploy y de la configuracion staticwebapp.config.json utilizada para soportar rutas SPA.

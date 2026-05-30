@@ -22,10 +22,14 @@ internal sealed class ListarCargosQueryHandler : IQueryHandler<ListarCargosQuery
                 c.id,
                 c.nombre
             FROM cargos c
+            WHERE (@Q IS NULL OR c.nombre ILIKE '%' || @Q || '%')
             ORDER BY c.nombre
             """;
 
-        var result = await connection.QueryAsync<ListarCargosResponse>(sql);
+        var result = await connection.QueryAsync<ListarCargosResponse>(sql, new
+        {
+            Q = string.IsNullOrWhiteSpace(request.Q) ? null : request.Q.Trim()
+        });
         return result.ToList();
     }
 }

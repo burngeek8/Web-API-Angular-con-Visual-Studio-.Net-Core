@@ -1,0 +1,61 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+.hero {
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.16), transparent 28%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(238, 242, 255, 0.96));
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #4338ca;
+}
+
+.hero h1,
+.card h2 {
+  color: #0f172a;
+}
+
+.summary-card,
+.info-chip {
+  border-radius: 20px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+}
+
+.summary-label,
+.info-chip small {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4338ca;
+}
+
+.summary-value {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #1e1b4b;
+}
+
+.table-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.table th {
+  background: #e0e7ff;
+  color: #312e81;
+  border-bottom: 0;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

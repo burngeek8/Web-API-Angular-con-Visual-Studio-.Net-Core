@@ -1,0 +1,28 @@
+﻿Profesor:
+
+La Tarea 13 consiste en continuar la aplicación Angular mostrando un listado en pantalla y utilizando Bootstrap para mejorar la apariencia.
+
+--- LO QUE SE IMPLEMENTÓ ---
+
+Se continuó el proyecto sistema-comercial-app creando una nueva pantalla de listado de empleados dentro de la SPA ya implementada.
+
+Para ello se implementó:
+
+- un modelo Empleado
+- un servicio EmpleadoService para consumir la API
+- una nueva página Empleados dentro de la SPA
+- una tabla Bootstrap para mostrar la información en pantalla
+- la integración de la ruta /empleados en la navegación principal
+
+A diferencia del ejemplo básico trabajado en clase, en esta implementación no se utilizó un JWT en duro, ya que el proyecto ya cuenta con autenticación, guard e interceptor configurados.
+
+También se ajustó la API para permitir que el usuario de prueba con rol Profesor pueda visualizar el listado de empleados.
+
+En la carpeta Proyecto de la entrega se adjuntan tanto la aplicación Angular como la API, ya que el trabajo principal se realizó en la SPA, pero fue necesario un ajuste de permisos en el backend para completar la prueba funcional del listado.
+
+--- EVIDENCIAS ADJUNTAS ---
+
+Se adjuntan capturas del servicio creado, del modelo, de la ruta agregada, del enlace Empleados en la navegación y de la pantalla Empleados funcionando dentro de la SPA.
+
+Saludos,
+Jose Rodriguez

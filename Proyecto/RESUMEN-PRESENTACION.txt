@@ -1,0 +1,66 @@
+RESUMEN DE PRESENTACION - SISTEMA COMERCIAL
+
+1. DESCRIPCION GENERAL
+
+El proyecto esta compuesto por dos partes:
+
+- SistemaComercial
+  API desarrollada en .NET
+
+- sistema-comercial-app
+  frontend desarrollado en Angular
+
+Ambas partes se integran para mostrar autenticacion con JWT, rutas protegidas y consumo de datos desde la interfaz web.
+
+2. FUNCIONALIDADES PRINCIPALES
+
+- Login de empleados contra la API
+- Emision y consumo de token JWT
+- Interceptor Angular que agrega Authorization: Bearer
+- Guard Angular para proteger rutas
+- Modulo Laboratorio migrado desde TypeScript puro a Angular
+- Listado de cargos
+- Listado de empleados
+- Navbar reutilizable para navegar entre modulos
+
+3. PAGINAS PRINCIPALES
+
+- /laboratorio
+  pagina publica que muestra la migracion del ejercicio TypeScript a Angular
+
+- /login
+  formulario de autenticacion
+
+- /cargos
+  pagina protegida que lista cargos
+
+- /empleados
+  pagina protegida que lista empleados
+
+4. SEGURIDAD
+
+- La API genera el token JWT al iniciar sesion
+- Angular guarda el token y lo reutiliza en peticiones protegidas
+- authGuard evita entrar a rutas privadas sin autenticacion
+- jwtInterceptor envia el token automaticamente en cada solicitud protegida
+
+5. DESPLIEGUE
+
+- La API fue publicada en Azure App Service
+- El frontend Angular fue publicado en:
+  - Azure App Service
+  - Azure Static Web Apps
+
+Importante:
+
+- En App Service las rutas SPA se resuelven con web.config
+- En Static Web Apps las rutas SPA se resuelven con staticwebapp.config.json
+
+6. USUARIO DE PRUEBA
+
+- Usuario: test@test.com
+- Clave: testing
+
+7. IDEA FUERZA PARA EXPLICAR EL PROYECTO
+
+Primero se construyo la API en .NET, luego el frontend en Angular, despues se integro la autenticacion con JWT y finalmente se publicaron tanto backend como frontend en Azure para poder probar el sistema completo desde la nube.

@@ -1,0 +1,76 @@
+<app-navbar />
+
+<section class="page">
+  <div class="container py-4 py-lg-5">
+    <header class="hero card border-0 shadow-sm mb-4">
+      <div class="card-body p-4 p-lg-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <p class="eyebrow mb-2">Panel</p>
+            <h1 class="display-5 fw-bold mb-3">Empleados</h1>
+            <p class="lead text-secondary mb-0">
+              Consulta el listado de empleados registrados dentro del sistema comercial.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="summary-card p-4">
+              <p class="summary-label mb-2">Total de empleados</p>
+              <p class="summary-value mb-1">{{ empleados().length }}</p>
+              <small class="text-secondary">Datos obtenidos desde la API protegida.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    @if (cargando()) {
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4">
+          <p class="state mb-0">Cargando empleados...</p>
+        </div>
+      </div>
+    } @else if (error()) {
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+          <p class="state text-danger mb-0">{{ error() }}</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill px-4" (click)="goToLogin()">
+            Volver al login
+          </button>
+        </div>
+      </div>
+    } @else {
+      <div class="card border-0 shadow-sm table-card">
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+              <thead>
+                <tr>
+                  <th class="ps-4">Código</th>
+                  <th>Empleado</th>
+                  <th>Documento</th>
+                  <th>Correo</th>
+                  <th>Fecha de ingreso</th>
+                  <th>Cargo</th>
+                  <th>Estado</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (empleado of empleados(); track empleado.id) {
+                  <tr>
+                    <td class="ps-4">{{ empleado.codigoEmpleado }}</td>
+                    <td>{{ nombreCompleto(empleado) }}</td>
+                    <td>{{ empleado.tipoDocumento }} {{ empleado.numeroDocumento }}</td>
+                    <td class="text-break">{{ empleado.correoEmpresarial }}</td>
+                    <td>{{ empleado.fechaIngreso | date:'dd/MM/yyyy' }}</td>
+                    <td>{{ empleado.nombreCargo }}</td>
+                    <td>{{ empleado.estado }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>

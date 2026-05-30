@@ -1,0 +1,104 @@
+<app-navbar />
+
+<section class="page">
+  <div class="container py-4 py-lg-5">
+    <header class="hero card border-0 shadow-sm mb-4">
+      <div class="card-body p-4 p-lg-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <p class="eyebrow mb-2">Panel</p>
+            <h1 class="display-5 fw-bold mb-3">Cargos</h1>
+            <p class="lead text-secondary mb-0">
+              Consulta los cargos registrados dentro del sistema comercial.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="summary-card p-4">
+              <p class="summary-label mb-2">Total de cargos</p>
+              <p class="summary-value mb-1">{{ cargos().length }}</p>
+              <small class="text-secondary">Datos obtenidos desde la API protegida.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-body p-4">
+        <div class="row g-3 align-items-end">
+          <div class="col-md-8">
+            <label for="q" class="form-label fw-semibold">Filtrar por nombre</label>
+            <input
+              id="q"
+              type="text"
+              class="form-control"
+              [ngModel]="q()"
+              (ngModelChange)="onSearchChange($event)"
+              placeholder="Ejemplo: Profe o Gerente"
+            />
+          </div>
+          <div class="col-md-4 d-flex gap-2">
+            <button type="button" class="btn btn-primary rounded-pill px-4" (click)="buscar()">
+              Buscar
+            </button>
+            <button type="button" class="btn btn-outline-secondary rounded-pill px-4" (click)="limpiarFiltro()">
+              Limpiar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    @if (cargando()) {
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4">
+          <p class="state mb-0">Cargando cargos...</p>
+        </div>
+      </div>
+    } @else if (error()) {
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+          <p class="state text-danger mb-0">{{ error() }}</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill px-4" (click)="goToLogin()">
+            Volver al login
+          </button>
+        </div>
+      </div>
+    } @else if (cargos().length === 0) {
+      <div class="card border-0 shadow-sm">
+        <div class="card-body p-4 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+          <div>
+            <p class="state mb-1">No se encontraron cargos.</p>
+            <small class="text-secondary">Prueba con otro filtro o limpia la búsqueda.</small>
+          </div>
+          <button type="button" class="btn btn-outline-secondary rounded-pill px-4" (click)="limpiarFiltro()">
+            Limpiar filtro
+          </button>
+        </div>
+      </div>
+    } @else {
+      <div class="card border-0 shadow-sm table-card">
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+              <thead>
+                <tr>
+                  <th class="ps-4">Id</th>
+                  <th>Nombre</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (cargo of cargos(); track cargo.id) {
+                  <tr>
+                    <td class="ps-4 text-break">{{ cargo.id }}</td>
+                    <td>{{ cargo.nombre }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>

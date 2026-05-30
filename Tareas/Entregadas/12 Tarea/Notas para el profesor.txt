@@ -1,0 +1,44 @@
+﻿Profesor:
+
+La Tarea 12 consistió en migrar al framework Angular la lógica desarrollada en el archivo laboratorio.ts trabajado en clase con TypeScript.
+
+--- LO QUE SE IMPLEMENTÓ ---
+
+Se tomó como base el archivo laboratorio.ts del proyecto de clase y su contenido fue adaptado a una aplicación Angular dentro del proyecto sistema-comercial-app.
+
+La migración incluyó:
+
+- variables tipadas
+- objeto tipado de autor
+- tipo unión
+- función con parámetro opcional y valor por defecto
+- clase Publicacion
+- herencia con la clase Revista
+- interfaz Material
+- arreglo tipado de materiales
+
+Para llevar esta lógica a Angular se separó el código en:
+
+- modelos:
+  publicacion.ts
+  material.ts
+
+- servicio:
+  laboratorio.service.ts
+
+- página Angular:
+  laboratorio
+
+Adicionalmente se integró la nueva ruta /laboratorio al sistema de navegación de la SPA para que pueda visualizarse desde el menú principal.
+
+En la carpeta Proyecto de la entrega se adjuntan dos fuentes:
+
+- el proyecto TypeScript original trabajado en clase
+- el proyecto sistema-comercial-app en Angular, donde se realizó la migración
+
+--- EVIDENCIAS ADJUNTAS ---
+
+Se adjuntan capturas del archivo laboratorio.ts original de clase, del servicio y modelos migrados a Angular, de la ruta configurada en app.routes.ts y de la pantalla laboratorio funcionando dentro de la SPA.
+
+Saludos,
+Jose Rodriguez

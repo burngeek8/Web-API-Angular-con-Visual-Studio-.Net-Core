@@ -1,0 +1,25 @@
+﻿Profesor:
+
+La Tarea 14 consiste en implementar seguridad con JSON Web Token dentro de la aplicación Angular desarrollada.
+
+--- LO QUE SE IMPLEMENTÓ ---
+
+En el proyecto sistema-comercial-app ya se cuenta con un flujo completo de autenticación basado en JWT.
+
+Para ello se implementó:
+
+- un AuthService para realizar el login y almacenar el token
+- un jwtInterceptor para adjuntar el token en las peticiones HTTP
+- un authGuard para proteger rutas de la aplicación
+- rutas protegidas para los módulos Cargos y Empleados
+- validación funcional del acceso autenticado dentro de la SPA
+
+Con esta implementación la aplicación puede iniciar sesión, guardar el token recibido por la API y permitir el acceso únicamente a las pantallas protegidas cuando el usuario está autenticado.
+
+--- EVIDENCIAS ADJUNTAS ---
+
+Se adjuntan capturas del AuthService, del interceptor JWT, del guard, de las rutas protegidas y de la navegación hacia módulos seguros después del inicio de sesión.
+
+Saludos,
+Jose Rodriguez
+

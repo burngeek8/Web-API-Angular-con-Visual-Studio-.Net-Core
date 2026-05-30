@@ -1,0 +1,57 @@
+<section class="login-shell">
+  <div class="container login-frame">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-5">
+        <div class="card border-0 shadow-lg login-card">
+          <div class="card-body p-4 p-md-5">
+            <p class="eyebrow mb-2">Sistema comercial</p>
+            <h1 class="display-6 fw-bold mb-3">Ingreso de empleados</h1>
+            <p class="subtitle mb-4">
+              Autenticate con tu correo empresarial para continuar.
+            </p>
+
+            <form [formGroup]="form" (ngSubmit)="onSubmit()" class="d-grid gap-3">
+              <div>
+                <label for="correo" class="form-label fw-semibold">Correo empresarial</label>
+                <input
+                  id="correo"
+                  type="email"
+                  formControlName="CorreoEmpresarial"
+                  placeholder="correo@empresa.com"
+                  class="form-control form-control-lg"
+                />
+                @if (form.controls.CorreoEmpresarial.touched && form.controls.CorreoEmpresarial.invalid) {
+                  <div class="text-danger small mt-2">Ingresa un correo valido.</div>
+                }
+              </div>
+
+              <div>
+                <label for="clave" class="form-label fw-semibold">Clave</label>
+                <input
+                  id="clave"
+                  type="password"
+                  formControlName="Clave"
+                  placeholder="Ingresa tu clave"
+                  class="form-control form-control-lg"
+                />
+                @if (form.controls.Clave.touched && form.controls.Clave.invalid) {
+                  <div class="text-danger small mt-2">La clave es obligatoria.</div>
+                }
+              </div>
+
+              @if (error()) {
+                <div class="alert alert-danger mb-0" role="alert">
+                  {{ error() }}
+                </div>
+              }
+
+            <button type="submit" class="btn btn-primary btn-lg rounded-pill mt-2 py-3" [disabled]="cargando()">
+              {{ cargando() ? 'Ingresando...' : 'Ingresar' }}
+            </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

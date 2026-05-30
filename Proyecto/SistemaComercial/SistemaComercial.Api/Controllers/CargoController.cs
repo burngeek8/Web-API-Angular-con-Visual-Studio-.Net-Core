@@ -9,7 +9,7 @@ namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
 [Route("api/cargos")]
-[Authorize(Roles = Roles.GerenteGeneral)]
+[Authorize(Roles = $"{Roles.GerenteGeneral},{Roles.Profesor}")]
 public class CargoController : ControllerBase
 {
     private readonly ISender _sender;
@@ -39,10 +39,10 @@ public class CargoController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<ListarCargosResponse>>> GetAll(CancellationToken cancellationToken)
+    public async Task<ActionResult<object>> GetAll([FromQuery] string? q, CancellationToken cancellationToken)
     {
-        var response = await _sender.Send(new ListarCargosQuery(), cancellationToken);
-        return Ok(response);
+        var response = await _sender.Send(new ListarCargosQuery(q), cancellationToken);
+        return Ok(new { value = response });
     }
 }
 

@@ -1,0 +1,35 @@
+<h1>Usuarios</h1>
+
+@if (cargando()) {
+  <p>Loading...</p>
+}
+
+@if(error()){
+  <p class="error">{{ error() }}</p>
+}
+
+
+@if (!cargando()) {
+  @if (usuarios().length > 0) {
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Rol</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for ( usuario of usuarios(); track usuario.id ) {
+          <tr>
+            <td>{{ usuario.nombresPersona }}</td>
+            <td>{{ usuario.correoElectronico }}</td>
+            <td>{{ usuario.nombreRol }}</td>
+            <td>{{ usuario.estado }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+}

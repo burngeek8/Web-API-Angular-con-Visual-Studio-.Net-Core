@@ -1,0 +1,7 @@
+GUION CORTO DE PRESENTACION
+
+Este proyecto se llama Sistema Comercial y esta dividido en dos partes. La primera es la API desarrollada en .NET, que se encarga de la autenticacion, la logica del sistema y la proteccion de endpoints con JWT. La segunda es el frontend desarrollado en Angular, donde implemente la interfaz con Bootstrap y varios modulos de navegacion.
+
+En la parte funcional, el sistema permite iniciar sesion con un empleado, obtener un token JWT y usar ese token para acceder a rutas protegidas como cargos y empleados. En Angular utilice un interceptor para enviar automaticamente el token en cada peticion y un guard para evitar que un usuario no autenticado entre a los modulos privados.
+
+Ademas, migre un ejercicio de TypeScript puro a una pagina Angular llamada laboratorio, separando modelos, servicio y componente. Finalmente, publique la API en Azure App Service y el frontend tanto en Azure App Service como en Azure Static Web Apps, resolviendo tambien el manejo de rutas SPA en ambos entornos.

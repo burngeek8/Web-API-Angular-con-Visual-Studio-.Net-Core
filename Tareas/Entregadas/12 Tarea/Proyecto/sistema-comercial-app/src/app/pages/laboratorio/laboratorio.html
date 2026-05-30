@@ -1,0 +1,154 @@
+<app-navbar />
+
+<section class="page">
+  <div class="container py-4 py-lg-5">
+    <header class="hero card border-0 shadow-sm mb-4">
+      <div class="card-body p-4 p-lg-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8">
+            <p class="eyebrow mb-2">TypeScript migrado a Angular</p>
+            <h1 class="display-5 fw-bold mb-3">Laboratorio de TypeScript</h1>
+            <p class="lead text-secondary mb-0">
+              Esta pantalla migra a Angular la lógica trabajada en clase con variables,
+              funciones, clases, herencia e interfaces de TypeScript.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="summary-card p-4">
+              <p class="summary-label mb-2">Total de materiales</p>
+              <p class="summary-value mb-1">{{ materiales.length }}</p>
+              <small class="text-secondary">Contenido local, sin depender de la API.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="row g-4 mb-4">
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <p class="eyebrow mb-2">Variables tipadas</p>
+            <h2 class="h4 mb-3">{{ titulo }}</h2>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="info-chip p-3">
+                  <small>Año de publicación</small>
+                  <p class="mb-0 fw-semibold">{{ anioPublicacion }}</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="info-chip p-3">
+                  <small>Disponible</small>
+                  <p class="mb-0 fw-semibold">{{ disponible ? 'Sí' : 'No' }}</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="info-chip p-3">
+                  <small>Géneros</small>
+                  <p class="mb-0 fw-semibold">{{ generos.join(', ') }}</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="info-chip p-3">
+                  <small>Tipo unión</small>
+                  <p class="mb-0 fw-semibold">{{ datoVariable }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <p class="eyebrow mb-2">Objeto autor</p>
+            <h2 class="h4 mb-3">{{ autor.nombre }}</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item px-0 d-flex justify-content-between">
+                <span>Edad</span>
+                <strong>{{ autor.edad }}</strong>
+              </li>
+              <li class="list-group-item px-0 d-flex justify-content-between">
+                <span>Activo</span>
+                <strong>{{ autor.activo ? 'Sí' : 'No' }}</strong>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <p class="eyebrow mb-2">Funciones</p>
+            <h2 class="h4 mb-3">Resultados de formatearTitulo</h2>
+            <div class="info-chip p-3 mb-3">
+              <small>Formato completo</small>
+              <p class="mb-0 fw-semibold">{{ tituloCompleto }}</p>
+            </div>
+            <div class="info-chip p-3">
+              <small>Formato simple</small>
+              <p class="mb-0 fw-semibold">{{ tituloSimple }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+            <p class="eyebrow mb-2">Clases y herencia</p>
+            <h2 class="h4 mb-3">Salida de métodos</h2>
+            <div class="info-chip p-3 mb-3">
+              <small>Clase Publicacion</small>
+              <p class="mb-2 fw-semibold">{{ libro.describir() }}</p>
+              <p class="mb-0 text-secondary">Lectura estimada: {{ libro.calcularLectura(10) }} minutos</p>
+            </div>
+            <div class="info-chip p-3">
+              <small>Clase Revista</small>
+              <p class="mb-2 fw-semibold">{{ revista.describir() }}</p>
+              <p class="mb-0 text-secondary">Lectura estimada: {{ revista.calcularLectura(5) }} minutos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card border-0 shadow-sm table-card">
+      <div class="card-body p-0">
+        <div class="p-4 pb-0">
+          <p class="eyebrow mb-2">Interfaces y arreglos</p>
+          <h2 class="h4 mb-0">Materiales de biblioteca</h2>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-hover align-middle mb-0">
+            <thead>
+              <tr>
+                <th class="ps-4">Nombre</th>
+                <th>Código</th>
+                <th>Stock</th>
+                <th>Ubicación</th>
+                <th>Salida mostrarMaterial</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (material of materiales; track material.codigo; let i = $index) {
+                <tr>
+                  <td class="ps-4">{{ material.nombre }}</td>
+                  <td>{{ material.codigo }}</td>
+                  <td>{{ material.stock }}</td>
+                  <td>{{ material.ubicacion ?? 'No registrada' }}</td>
+                  <td class="text-break">{{ mostrarMaterial(i) }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

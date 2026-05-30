@@ -1,0 +1,35 @@
+﻿Profesor:
+
+La Tarea 09 consistió en implementar el registro de logs de la API en MongoDB
+dentro del proyecto SistemaComercial, utilizando Serilog como mecanismo de
+logging.
+
+--- LO QUE SE IMPLEMENTÓ ---
+
+Se configuró la API para mantener tres destinos de salida de logs:
+
+1. Consola
+2. Archivo local en la carpeta logs
+3. MongoDB Atlas en la colección logs
+
+En Program.cs se configuró el registro de logs hacia MongoDB usando la cadena
+ConnectionStrings:MongoDb definida en appsettings.json.
+
+De esta manera, los eventos generados por la API no solo se muestran en consola
+y se guardan en archivo local, sino que también se almacenan en MongoDB Atlas
+para su consulta posterior.
+
+--- VALIDACIÓN ---
+
+La configuración fue validada mediante evidencia visual de:
+
+1. Configuración del logging en Program.cs
+2. Cadena de conexión MongoDb en appsettings.json
+3. Generación de logs locales en el archivo de la carpeta logs
+4. Persistencia de documentos reales en la colección logs de MongoDB Atlas
+
+Con ello se comprueba que la API registra eventos correctamente en múltiples
+destinos: consola, archivo local y base de datos MongoDB.
+
+Saludos,
+Jose Rodriguez

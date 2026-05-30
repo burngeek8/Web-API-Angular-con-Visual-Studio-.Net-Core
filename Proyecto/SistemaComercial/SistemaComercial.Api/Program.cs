@@ -4,6 +4,7 @@ using SistemaComercial.Api.Extensions;
 using SistemaComercial.Api.Filter;
 using SistemaComercial.Aplicacion;
 using SistemaComercial.Infrastructure;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,14 @@ builder.Services.AddCors(options =>
     options.AddPolicy("defaultPolicy",
     corsBuilder =>
     {
-        corsBuilder.WithOrigins("http://localhost:5500", "http://127.0.0.1:5500")
+        corsBuilder.WithOrigins(
+                "http://localhost:5500",
+                "http://127.0.0.1:5500",
+                "http://localhost:4200",
+                "http://127.0.0.1:4200",
+                "https://sicomapp-g9emf7gqe5h7grax.westcentralus-01.azurewebsites.net",
+                "https://purple-sand-00af6e51e.7.azurestaticapps.net"
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     }));
@@ -39,15 +47,39 @@ builder.Services.AddControllers(options =>
     options.Filters.Add<GlobalActionLoggingFilter>();
 });
 
-
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
 {
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+    opt.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Sistema Comercial API",
+        Version = "v1",
+        Description = "API del sistema comercial desarrollada en .NET para la gestion de empleados, cargos, cursos, alumnos y ventas.",
+        Contact = new OpenApiContact
+        {
+            Name = "Equipo Sistema Comercial",
+            Email = "jose@rodriguez.pe"
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Uso academico",
+            Url = new Uri("https://rodriguez.pe")
+        }
+    });
+
+    if (File.Exists(xmlPath))
+    {
+        opt.IncludeXmlComments(xmlPath);
+    }
+
     opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
-        Description = "Please enter a valid token",
+        Description = "Ingrese el token JWT con el formato: Bearer {token}",
         Name = "Authorization",
         Type = SecuritySchemeType.Http,
         Scheme = "Bearer",
@@ -64,11 +96,15 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment()){
     app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    app.UseSwaggerUI(opt =>
+    {
+        opt.DocumentTitle = "Sistema Comercial API - Swagger";
+        opt.SwaggerEndpoint("/swagger/v1/swagger.json", "Sistema Comercial API v1");
+        opt.DisplayRequestDuration();
+    });
+//}
 
 await app.MigrationDatabaseAsync();
 

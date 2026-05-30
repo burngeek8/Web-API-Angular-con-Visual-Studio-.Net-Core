@@ -1,0 +1,62 @@
+PREGUNTAS PROBABLES DEL PROFESOR
+
+1. De que trata tu proyecto?
+
+Es un Sistema Comercial compuesto por una API en .NET y un frontend en Angular. Permite autenticacion con JWT, consumo de datos protegidos y navegacion entre modulos como laboratorio, cargos y empleados.
+
+2. Como funciona el login?
+
+El frontend envia las credenciales del empleado a la API. La API valida el usuario y devuelve un token JWT. Luego Angular guarda ese token y lo usa para acceder a rutas y endpoints protegidos.
+
+3. Donde usaste JWT?
+
+JWT se usa en la autenticacion del sistema. La API genera el token y Angular lo reutiliza con un interceptor para enviar Authorization: Bearer en cada solicitud protegida.
+
+4. Para que sirve el authGuard?
+
+Sirve para evitar que un usuario no autenticado entre a rutas privadas como cargos o empleados. Si no hay sesion, Angular redirige al login.
+
+5. Para que sirve el interceptor?
+
+Sirve para agregar automaticamente el token JWT a las peticiones HTTP que van hacia la API protegida.
+
+6. Que paginas principales tiene tu sistema?
+
+Tiene laboratorio, login, cargos y empleados.
+
+7. Que es la pagina laboratorio?
+
+Es una pagina Angular creada a partir de un ejercicio original en TypeScript. Migre las variables, clases, interfaz y servicio a Angular para mostrar esa logica dentro de la SPA.
+
+8. Que trabajaste en la tarea de empleados?
+
+Cree el modelo Empleado, un servicio Angular para listar empleados, la pagina Empleados, la ruta correspondiente y la tabla Bootstrap para mostrar la informacion.
+
+9. Por que adjuntaste backend y frontend en algunas tareas?
+
+Porque algunas funcionalidades finales dependian tanto del frontend como de pequeños ajustes en la API, por ejemplo autenticacion, permisos o acceso al listado de empleados.
+
+10. Donde publicaste el sistema?
+
+La API fue publicada en Azure App Service. El frontend Angular tambien fue publicado en Azure App Service y adicionalmente en Azure Static Web Apps.
+
+11. Que diferencia encontraste entre App Service y Static Web Apps?
+
+En App Service las rutas SPA se resuelven con web.config porque corre sobre IIS. En Static Web Apps se usa staticwebapp.config.json con navigationFallback hacia index.html.
+
+12. Con que usuario se puede probar?
+
+Usuario: test@test.com
+Clave: testing
+
+13. Que tecnologias usaste?
+
+.NET, Angular, TypeScript, Bootstrap, JWT, PostgreSQL y Azure.
+
+14. Que hace la API?
+
+Se encarga de autenticar usuarios, proteger endpoints, consultar datos y entregar la informacion al frontend.
+
+15. Que hace Angular en tu proyecto?
+
+Se encarga de la interfaz, la navegacion, el login, las rutas protegidas, el consumo de la API y la visualizacion de cargos, empleados y laboratorio.

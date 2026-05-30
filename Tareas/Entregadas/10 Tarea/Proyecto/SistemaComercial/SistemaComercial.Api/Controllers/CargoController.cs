@@ -1,0 +1,49 @@
+using SistemaComercial.Aplicacion.Cargos.CrearCargo;
+using SistemaComercial.Aplicacion.Cargos.ListarCargos;
+using SistemaComercial.Api.Authorization;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace SistemaComercial.Api.Controllers;
+
+[ApiController]
+[Route("api/cargos")]
+[Authorize(Roles = Roles.GerenteGeneral)]
+public class CargoController : ControllerBase
+{
+    private readonly ISender _sender;
+
+    public CargoController(ISender sender)
+    {
+        _sender = sender;
+    }
+
+    [HttpPost]
+    [AllowAnonymous]
+    public async Task<ActionResult<Guid>> Create([FromBody] CrearCargoRequest request, CancellationToken cancellationToken)
+    {
+        var cargos = await _sender.Send(new ListarCargosQuery(), cancellationToken);
+        bool isBootstrap = cargos.Count == 0;
+
+        if (!isBootstrap && !(User.Identity?.IsAuthenticated ?? false))
+            return Unauthorized("Debe autenticarse para registrar cargos.");
+
+        var nombre = request.Nombre?.Trim();
+        if (string.IsNullOrWhiteSpace(nombre))
+            return BadRequest("El nombre del cargo es obligatorio.");
+
+        var id = await _sender.Send(new CrearCargoCommand(nombre), cancellationToken);
+
+        return Created($"/api/cargos/{id}", id);
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<List<ListarCargosResponse>>> GetAll(CancellationToken cancellationToken)
+    {
+        var response = await _sender.Send(new ListarCargosQuery(), cancellationToken);
+        return Ok(response);
+    }
+}
+
+public sealed record CrearCargoRequest(string Nombre);

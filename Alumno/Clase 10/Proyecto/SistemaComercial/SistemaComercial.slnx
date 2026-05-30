@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SistemaComercial.Api/SistemaComercial.Api.csproj" Id="19d7ca3b-ccf6-4bd4-b85d-424932f91278" />
+  <Project Path="SistemaComercial.Aplicacion/SistemaComercial.Aplicacion.csproj" />
+  <Project Path="SistemaComercial.Dominio/SistemaComercial.Dominio.csproj" />
+  <Project Path="SistemaComercial.Infrastructure/SistemaComercial.Infrastructure.csproj" />
+</Solution>

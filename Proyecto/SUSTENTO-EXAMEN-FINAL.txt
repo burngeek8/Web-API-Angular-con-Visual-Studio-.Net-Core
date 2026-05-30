@@ -1,0 +1,226 @@
+SUSTENTO EXAMEN FINAL
+
+Este archivo resume cada punto del PDF de la evaluacion final, indicando que archivos mostrar y como sustentar cada requisito.
+
+==============================
+BACKEND - ASP .NET CORE WEB API
+==============================
+
+1. Arquitectura por capas (Api / Application / Infrastructure), DI
+
+Archivos o carpetas a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\DependencyInjection.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\DependencyInjection.cs
+
+Como sustentar:
+La solucion esta separada por capas. La API expone controladores y configuracion, Application contiene casos de uso y validaciones, e Infrastructure contiene acceso a datos, JWT y repositorios. La inyeccion de dependencias se registra en los archivos DependencyInjection para desacoplar implementaciones y permitir que controladores y handlers reciban sus dependencias por constructor.
+
+2. Datos: EF Core con migraciones; repositorio simple para entidad
+
+Archivos o carpetas a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\ApplicationDbContext.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\Migrations
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Dominio\Cargos\ICargoRepository.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\Repositories\CargoRepository.cs
+
+Como sustentar:
+Se usa Entity Framework Core como acceso principal a datos y las migraciones estan registradas en la carpeta Migrations. Para la entidad Cargo existe un repositorio simple con su interfaz en Dominio y su implementacion en Infrastructure.
+
+Como generar una nueva migracion:
+Desde la carpeta de la solucion:
+D:\Cibertec\Proyecto\SistemaComercial
+
+Ejecutar:
+dotnet ef migrations add NombreDeLaMigracion --project .\SistemaComercial.Infrastructure\ --startup-project .\SistemaComercial.Api\
+
+Ejemplo:
+dotnet ef migrations add AgregarFiltroCargos --project .\SistemaComercial.Infrastructure\ --startup-project .\SistemaComercial.Api\
+
+Para aplicar la migracion a la base de datos:
+dotnet ef database update --project .\SistemaComercial.Infrastructure\ --startup-project .\SistemaComercial.Api\
+
+Como explicarlo:
+Cuando hago cambios en las entidades o configuraciones del modelo, genero una nueva migracion con dotnet ef migrations add. Entity Framework Core compara el modelo actual contra el ModelSnapshot y crea los archivos nuevos dentro de Infrastructure\Migrations.
+
+Ejemplo practico para sustentar:
+Si quiero generar una migracion de prueba, puedo cambiar la longitud del correo empresarial del empleado en:
+D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\Configurations\EmpleadoConfigurations.cs
+
+Linea a ubicar:
+builder.Property(e => e.CorreoEmpresarial)
+    .HasMaxLength(100)
+
+Ejemplo de cambio:
+Cambiar HasMaxLength(100) por HasMaxLength(120)
+
+Luego generar la migracion:
+dotnet ef migrations add CambiarLongitudCorreoEmpleado --project .\SistemaComercial.Infrastructure\ --startup-project .\SistemaComercial.Api\
+
+Y si quiero aplicarla a la base:
+dotnet ef database update --project .\SistemaComercial.Infrastructure\ --startup-project .\SistemaComercial.Api\
+
+Como decirlo:
+Para demostrar el uso de migraciones, puedo modificar una restriccion del modelo, por ejemplo la longitud maxima del correo empresarial del empleado. Despues genero una nueva migracion y EF Core registra ese cambio en la carpeta Migrations.
+
+3. Validacion: FluentValidation
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\Cargos\ListarCargos\ListarCargosQueryValidator.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\Abstractions\Behaviors\ValidationBehavior.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\DependencyInjection.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Filter\GlobalExceptionFilter.cs
+
+Como sustentar:
+FluentValidation se usa para validar el query del listado de cargos, especificamente el parametro q. El validator se ejecuta mediante un pipeline de MediatR llamado ValidationBehavior y, si falla, el filtro global de excepciones transforma la ValidationException en una respuesta 400.
+
+4. Seguridad: JWT (POST /auth/login -> { accessToken }) y [Authorize] en el listado
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\AuthController.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\Empleados\LoginEmpleado\LoginEmpleadoResponse.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Infrastructure\Abstractions\JwtTokenGenerator.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\CargoController.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\EmpleadoController.cs
+
+Como sustentar:
+El endpoint de autenticacion es POST /auth/login y devuelve accessToken. El token se genera en JwtTokenGenerator. Los listados estan protegidos con Authorize en los controladores, por lo que solo se puede acceder con autenticacion valida.
+
+5. CORS / Proxy
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Program.cs
+
+Como sustentar:
+Se configuro CORS para permitir el acceso del frontend Angular hacia la API. Esto fue necesario tanto para pruebas locales como para los despliegues publicados en Azure.
+
+6. Middleware: manejador global de excepciones
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Filter\GlobalExceptionFilter.cs
+
+Como sustentar:
+El proyecto tiene un filtro global de excepciones que intercepta errores no controlados y tambien errores de validacion. De esta manera las respuestas de error salen con un formato consistente y no se expone una excepcion cruda al cliente.
+
+7. Endpoint minimo: POST /auth/login
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\AuthController.cs
+
+Como sustentar:
+Se creo el controlador AuthController con el endpoint POST /auth/login, que recibe credenciales del empleado y devuelve accessToken cuando la autenticacion es correcta.
+
+8. Endpoint minimo: GET /{entidad} protegido
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\CargoController.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\Cargos\ListarCargos\ListarCargosQueryHandler.cs
+
+Como sustentar:
+La entidad principal usada para el examen es Cargo. El endpoint GET /api/cargos esta protegido, permite filtrar por q y devuelve la informacion dentro de un sobre con la propiedad value.
+
+================================
+FRONTEND - ANGULAR STANDALONE SPA
+================================
+
+9. Estructura: SPA con Angular + CLI; componentes standalone
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\app.routes.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\login\login.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\empleados\empleados.ts
+
+Como sustentar:
+El frontend esta construido como una SPA en Angular. Las pantallas principales estan implementadas como standalone components y se cargan por rutas con lazy loading.
+
+10. Routing: /login publica y /(entidades) protegida con Guard
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\app.routes.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\guards\auth.guard.ts
+
+Como sustentar:
+La ruta /login es publica. Las rutas /cargos y /empleados estan protegidas con authGuard, que verifica si existe token antes de permitir el acceso.
+
+11. Autenticacion: POST /auth/login -> guardar accessToken
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\models\auth.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\services\auth.ts
+
+Como sustentar:
+Angular envia las credenciales al endpoint /auth/login, recibe accessToken y lo guarda en localStorage. Luego reutiliza ese token para el acceso a rutas y peticiones protegidas.
+
+12. Interceptor: Authorization Bearer solo contra API_URL
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\interceptors\jwt.interceptor.ts
+
+Como sustentar:
+El interceptor agrega el header Authorization Bearer solo cuando la llamada va al dominio de la API. Eso evita enviar el token a otros destinos que no correspondan al backend del sistema.
+
+13. Servicios y datos: mapear { value: EntidadDto[] } -> lista
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\services\cargo.service.ts
+
+Como sustentar:
+El backend devuelve el listado de cargos como un sobre con la propiedad value. En el servicio Angular se usa map para extraer response.value y dejar la lista lista para la vista.
+
+14. Vista de lista: mostrar entidad
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.html
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.ts
+
+Como sustentar:
+La entidad principal presentada en el examen es Cargo. La pantalla muestra el listado en una tabla, recibe datos desde la API protegida y tambien integra el filtro q sincronizado con la URL.
+
+15. Estados basicos: cargando / sin datos / error
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.html
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.ts
+
+Como sustentar:
+La vista maneja tres estados principales. Mientras la peticion esta en curso se muestra Cargando cargos. Si ocurre un error se muestra mensaje de error. Si el filtro no encuentra resultados se muestra No se encontraron cargos.
+
+16. Filtro q visible en URL
+
+Archivos a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\cargos\cargos.ts
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\services\cargo.service.ts
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Api\Controllers\CargoController.cs
+- D:\Cibertec\Proyecto\SistemaComercial\SistemaComercial.Aplicacion\Cargos\ListarCargos\ListarCargosQueryHandler.cs
+
+Como sustentar:
+El filtro por nombre se envía como query string q. Al escribir en la caja de busqueda se actualiza la URL, por ejemplo /cargos?q=pro. Si se recarga la pagina, el estado de la busqueda se mantiene porque el componente vuelve a leer el parametro q desde la URL.
+
+17. Fecha con date pipe
+
+Archivo a mostrar:
+- D:\Cibertec\Proyecto\sistema-comercial-app\src\app\pages\empleados\empleados.html
+
+Como sustentar:
+Adicionalmente, en la pantalla de empleados se muestra la fecha de ingreso usando el date pipe de Angular con el formato dd/MM/yyyy, para evidenciar el formateo de fechas en la vista.
+
+Que significa pipe:
+Un pipe en Angular es un transformador visual que se usa en el HTML para cambiar la forma en que se muestra un dato, sin modificar su valor original. En este caso, el date pipe toma la fecha recibida desde la API y la presenta con un formato legible para el usuario.
+
+==============================
+FLUJO RECOMENDADO DE SUSTENTO
+==============================
+
+1. Mostrar app.routes.ts y auth.guard.ts.
+2. Mostrar auth.ts y jwt.interceptor.ts.
+3. Mostrar AuthController.cs y LoginEmpleadoResponse.cs.
+4. Mostrar CargoController.cs, ListarCargosQueryHandler.cs y ListarCargosQueryValidator.cs.
+5. Abrir /login.
+6. Iniciar sesion.
+7. Abrir /cargos.
+8. Mostrar filtro q funcionando y URL con query string.
+9. Buscar algo inexistente para mostrar el estado sin datos.
+10. Si hace falta, abrir /empleados para mostrar la fecha con date pipe.

@@ -1,0 +1,20 @@
+Profesor:
+
+La Tarea 10 consistió en realizar el despliegue de la API del proyecto
+SistemaComercial en Azure App Services.
+
+--- LO QUE SE IMPLEMENTÓ ---
+
+Se publicó el proyecto SistemaComercial.Api en un Azure App Service con el
+nombre siscom, dejando la API disponible desde una URL pública en la nube.
+
+Como parte de la validación, se comprobó que el recurso quedó en ejecución dentro de Azure, que la publicación se realizó correctamente desde Visual Studio y que la API respondió de forma satisfactoria desde su dirección pública mediante Swagger.
+
+--- EVIDENCIAS ADJUNTAS ---
+
+1. App Service siscom en ejecución dentro del portal de Azure.
+2. API publicada funcionando desde la URL pública de Azure.
+3. Publicación correcta realizada desde Visual Studio hacia Azure App Service.
+
+Saludos,
+Jose Rodriguez

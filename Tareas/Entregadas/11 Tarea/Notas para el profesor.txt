@@ -1,0 +1,42 @@
+Profesor:
+
+La Tarea 11 consiste en continuar el desarrollo de la aplicacion SPA del proyecto SistemaComercial utilizando Angular y Bootstrap.
+
+--- LO QUE SE IMPLEMENTO ---
+
+Como primer paso, se instalo Bootstrap en el proyecto Angular mediante npm.
+
+Luego, Bootstrap se configuro de forma global en el archivo angular.json para que sus estilos puedan utilizarse en toda la aplicacion SPA.
+
+Con esta base, se adapto la pantalla de login utilizando clases y estructura visual de Bootstrap, manteniendo el flujo de autenticacion por empleado.
+
+Tambien se creo un nuevo componente standalone llamado navbar, el cual se integro dentro de la pantalla de cargos para reforzar la estructura SPA de la aplicacion.
+
+Finalmente, se reestructuro la pantalla de cargos con una presentacion mas ordenada usando Bootstrap, incorporando encabezado, tarjeta de resumen y tabla responsive.
+
+Para facilitar la prueba de la SPA, el frontend se configuro para consumir la
+API publicada previamente en Azure App Services, evitando depender de una API
+local durante la revision.
+
+La URL utilizada para las pruebas de la API en Azure es:
+https://siscom-chd6bkbjfugxdpam.westcentralus-01.azurewebsites.net/
+
+--- EVIDENCIAS ADJUNTAS ---
+
+1. Configuracion global de Bootstrap en angular.json.
+2. Pantalla de login adaptada con Bootstrap.
+3. Componente standalone navbar creado en Angular.
+4. Pantalla de cargos con navbar integrado.
+5. Estructura HTML de cargos usando clases Bootstrap.
+6. Dependencia Bootstrap instalada en package.json.
+
+--- USUARIO DE PRUEBA ---
+
+Usuario: test@test.com
+Clave: testing
+
+Con este usuario se valido el inicio de sesion y el acceso a la pantalla de
+cargos.
+
+Saludos,
+Jose Rodriguez

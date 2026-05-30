@@ -13,7 +13,7 @@ namespace SistemaComercial.Api.Controllers;
 
 [ApiController]
 [Route("api/empleados")]
-[Authorize(Roles = Roles.GerenteGeneral)]
+[Authorize(Roles = $"{Roles.GerenteGeneral},{Roles.Profesor}")]
 public class EmpleadoController : ControllerBase
 {
     private const string PrimerCargoRegistroUrl = "/api/cargos";
@@ -69,10 +69,10 @@ public class EmpleadoController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<ListarEmpleadosResponse>>> GetAll(CancellationToken cancellationToken)
+    public async Task<ActionResult<object>> GetAll(CancellationToken cancellationToken)
     {
         var response = await _sender.Send(new ListarEmpleadosQuery(), cancellationToken);
-        return Ok(response);
+        return Ok(new { value = response });
     }
 
     [HttpPost("login")]
@@ -81,6 +81,6 @@ public class EmpleadoController : ControllerBase
     {
         var command = new LoginEmpleadoCommand(request.CorreoEmpresarial, request.Clave);
         var result = await _sender.Send(command, cancellationToken);
-        return string.IsNullOrEmpty(result.Token) ? Unauthorized() : Ok(result);
+        return string.IsNullOrEmpty(result.AccessToken) ? Unauthorized() : Ok(result);
     }
 }

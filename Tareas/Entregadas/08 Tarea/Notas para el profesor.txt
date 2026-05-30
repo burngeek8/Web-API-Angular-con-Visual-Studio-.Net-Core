@@ -1,0 +1,48 @@
+Profesor:
+
+La Tarea 08 consistio en personalizar la documentacion de la API en Swagger
+dentro del proyecto SistemaComercial.
+
+--- LO QUE SE IMPLEMENTO ---
+
+Se realizaron los siguientes ajustes sobre Swagger en la API:
+
+1. Informacion general del documento OpenAPI
+   Se configuro un documento Swagger con datos propios de la solucion:
+     - Titulo   : Sistema Comercial API
+     - Version  : v1
+     - Descripcion funcional de la API
+     - Contacto
+     - Licencia de uso academico
+
+2. Personalizacion de Swagger UI
+   Se ajusto la interfaz Swagger para mostrar:
+     - titulo de la pagina
+     - nombre visible del documento
+     - duracion de las peticiones
+
+3. Documentacion del esquema JWT Bearer
+   Se mejoro la definicion del esquema de seguridad para indicar de forma clara
+   como enviar el token en el header Authorization con el formato:
+
+     Bearer <token>
+
+4. Soporte para comentarios XML
+   Se habilito la generacion del archivo XML de documentacion para que Swagger
+   pueda leer comentarios de controladores y endpoints cuando se desee ampliar
+   la documentacion en futuras tareas o mejoras.
+
+--- VALIDACION ---
+
+Se ejecuto:
+
+  dotnet build .\SistemaComercial.Api\SistemaComercial.Api.csproj
+
+Resultado:
+
+  - Compilacion correcta
+  - Sin errores de codigo
+
+
+Saludos,
+Jose Rodriguez

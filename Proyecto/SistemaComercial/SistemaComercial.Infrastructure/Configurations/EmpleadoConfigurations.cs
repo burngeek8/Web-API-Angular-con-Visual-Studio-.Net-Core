@@ -31,9 +31,9 @@ internal class EmpleadoConfigurations : IEntityTypeConfiguration<SistemaComercia
         });
 
         builder.Property(e => e.CorreoEmpresarial)
-            .HasMaxLength(100)
+            .HasMaxLength(120)
             .HasConversion(
-                v => v.Valor,
+                v => v.Valor,s
                 v => CorreoEmpresarial.Crear(v)
             )
             .IsRequired();

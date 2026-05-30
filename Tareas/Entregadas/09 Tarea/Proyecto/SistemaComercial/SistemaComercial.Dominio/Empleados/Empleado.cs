@@ -1,0 +1,105 @@
+using SistemaComercial.Dominio.Abstractions;
+using SistemaComercial.Dominio.Cargos;
+using SistemaComercial.Dominio.Empleados.ObjectValue;
+using SistemaComercial.Dominio.Empleados.Services;
+using SistemaComercial.Dominio.Shared.Enum;
+
+namespace SistemaComercial.Dominio.Empleados;
+
+public class Empleado : Entity
+{
+    private Empleado()
+    {
+        NombreCompleto = null!;
+        NumeroDocumento = null!;
+        CorreoEmpresarial = null!;
+        Salario = null!;
+        CodigoEmpleado = null!;
+        Clave = null!;
+    }
+
+    private Empleado(
+        Guid id,
+        NombreCompleto nombreCompleto,
+        NumeroDocumento numeroDocumento,
+        CorreoEmpresarial correoEmpresarial,
+        Salario salario,
+        CodigoEmpleado codigoEmpleado,
+        string clave,
+        DateTime fechaIngreso,
+        EstadoEmpleado estado,
+        Guid cargoId) : base(id)
+    {
+        NombreCompleto = nombreCompleto;
+        NumeroDocumento = numeroDocumento;
+        CorreoEmpresarial = correoEmpresarial;
+        Salario = salario;
+        CodigoEmpleado = codigoEmpleado;
+        Clave = clave;
+        FechaIngreso = fechaIngreso;
+        Estado = estado;
+        CargoId = cargoId;
+    }
+
+    public NombreCompleto NombreCompleto { get; private set; }
+    public NumeroDocumento NumeroDocumento { get; private set; }
+    public CorreoEmpresarial CorreoEmpresarial { get; private set; }
+    public Salario Salario { get; private set; }
+    public CodigoEmpleado CodigoEmpleado { get; private set; }
+    public string Clave { get; private set; }
+    public DateTime FechaIngreso { get; private set; }
+    public EstadoEmpleado Estado { get; private set; }
+    public Cargo? Cargo { get; private set; }
+    public Guid CargoId { get; private set; }
+
+    public static Empleado Create(
+        NombreCompleto nombreCompleto,
+        NumeroDocumento numeroDocumento,
+        CorreoEmpresarial correoEmpresarial,
+        Salario salario,
+        DateTime fechaIngreso,
+        Guid cargoId,
+        CodigoEmpleadoServices codigoEmpleadoServices,
+        string clave)
+    {
+        var codigoGenerado = codigoEmpleadoServices.GenerarCodigo(
+            nombreCompleto.Nombres,
+            nombreCompleto.ApellidoPaterno,
+            fechaIngreso);
+
+        return new Empleado(
+            Guid.NewGuid(),
+            nombreCompleto,
+            numeroDocumento,
+            correoEmpresarial,
+            salario,
+            codigoGenerado,
+            clave,
+            fechaIngreso,
+            EstadoEmpleado.Activo,
+            cargoId);
+    }
+
+    public void Actualizar(
+        NombreCompleto nombreCompleto,
+        NumeroDocumento numeroDocumento,
+        CorreoEmpresarial correoEmpresarial,
+        Salario salario,
+        DateTime fechaIngreso,
+        EstadoEmpleado estado,
+        Guid cargoId,
+        CodigoEmpleadoServices codigoEmpleadoServices)
+    {
+        NombreCompleto = nombreCompleto;
+        NumeroDocumento = numeroDocumento;
+        CorreoEmpresarial = correoEmpresarial;
+        Salario = salario;
+        FechaIngreso = fechaIngreso;
+        Estado = estado;
+        CargoId = cargoId;
+        CodigoEmpleado = codigoEmpleadoServices.GenerarCodigo(
+            nombreCompleto.Nombres,
+            nombreCompleto.ApellidoPaterno,
+            fechaIngreso);
+    }
+}

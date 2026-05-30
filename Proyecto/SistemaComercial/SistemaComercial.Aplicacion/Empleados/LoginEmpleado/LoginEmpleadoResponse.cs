@@ -1,3 +1,3 @@
 namespace SistemaComercial.Aplicacion.Empleados.LoginEmpleado;
 
-public sealed record LoginEmpleadoResponse(string Token);
+public sealed record LoginEmpleadoResponse(string AccessToken);

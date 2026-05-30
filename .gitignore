@@ -3,3 +3,6 @@
 **/obj/
 **/logs/
 *.csproj.user
+Alumno/*/OneDrive*.zip
+Profesor/*/src/*.zip
+Profesor/*/*.zip
